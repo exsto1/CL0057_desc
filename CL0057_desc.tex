@@ -1,0 +1,71 @@
+\documentclass[12pt]{article}
+
+\usepackage[margin=0.8in]{geometry}
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=blue,
+}
+ 
+\urlstyle{same}
+
+\usepackage{polski}
+\usepackage[polish]{babel}
+\usepackage[utf8]{inputenc}
+
+\usepackage{titling}
+
+\usepackage{framed}
+\usepackage[svgnames]{xcolor}
+\colorlet{shadecolor}{Gainsboro!50}
+
+\usepackage{graphicx}
+\usepackage{float}
+\graphicspath{ {./images/} }
+
+\usepackage{verbatim}
+
+\usepackage{caption}
+\captionsetup[figure]{name=Fig.}
+
+\title{Project CL0057 summary\\Contract: 388/313-14-00/DP/2020}
+\subtitle{}
+\author{Maciej Sikora, Vasilina Zayats}
+\date{}
+
+
+\begin{document}
+\maketitle
+\pagenumbering{gobble}
+\
+\setcounter{tocdepth}{2}
+\tableofcontents
+
+\newpage
+
+
+			\input{clan-analysis}
+
+
+            \input{outgroups-checklist}
+
+
+            \input{combined-analysis}
+
+
+            \input{used-scripts}
+
+
+            \input{used-files}
+
+
+            \input{all-tested-trees}
+
+
+            \input{old-outgroups-info}
+
+
+\end{document}
